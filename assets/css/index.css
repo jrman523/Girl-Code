@@ -6,12 +6,6 @@
     font-family: 'Raleway', sans-serif;
    }
   
-   .brand-logo {
-    color: #373737;
-    padding-left: 15px;
-  }
-  
-  
   /* Styling Links*/
   
   /* Unvisited link */
@@ -52,13 +46,6 @@
   
   
   
-  /* Styling for Media Icons in Footer */
-  .mediabuttons {
-      font-family: 'Raleway', sans-serif;
-      font-size: 15px;
-      text-align: center;
-      border-radius: 50%;
-  }
   
   .page-footer {
     background-color: #373737 !important;
@@ -69,23 +56,14 @@
   /* About Page*/
   .aboutabout {
     font-family: 'Raleway', sans-serif;
-    color: #373737;
-  }
-  
-  .technologies {
-      font-family: 'Raleway', sans-serif;
-      color: #373737;
-    }
+    color: whitesmoke;
+    text-align: center;
   }
   
   .parallax {
     background-blend-mode: overlay;
   }
-  
-  .headshottwo {
-      float: right;
-  }
-  
+
   .grey-text {
     float:left;
   }
@@ -126,12 +104,3 @@
     text-rendering: optimizeLegibility;
   }
   
-  #email-submit-btn {
-    width: 50px;
-    height: 50px;
-  }
-  
-  #facebook {
-    width: 50px;
-    height: 50px;
-  }

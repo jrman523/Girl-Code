@@ -1,0 +1,100 @@
+/* Styling for Index, Project and Contact Pages*/
+
+/* Navigation Bar*/
+.nav-wrapper{
+    background-color: #373737 !important;
+    font-family: 'Raleway', sans-serif;
+   }
+  
+  /* Styling Links*/
+  
+  /* Unvisited link */
+  a:link {
+      color: #f4f4f4";
+    }
+    
+  /* visited link */
+    a:visited {
+      color: #f4f4f4";
+    }
+    
+  /* mouse over link */
+    a:hover {
+      color: #f4f4f4";
+    }
+    
+  /* selected link */
+    a:active {
+      color: #f4f4f4";
+    }
+  
+    a:link {
+      text-decoration: none;
+    }
+    
+    a:visited {
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: none;
+    }
+    
+    a:active {
+      text-decoration: none;
+    }
+  
+  
+  .page-footer {
+    background-color: #373737 !important;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+  }
+  
+  /* About Page*/
+  
+  .parallax {
+    background-blend-mode: overlay;
+  }
+
+  .grey-text {
+    float:left;
+  }
+  
+  .parallax-container {
+    color: #373737;
+  }
+  
+  .inputName {
+    color: #373737;
+  }
+  
+  .overlay {
+    width: 100%;
+  }
+  
+  .h100 {
+    height: 100%;
+  }
+  
+  .header {
+    font-size: 1em;
+    font-style: italic;
+    font-weight: bold;
+    margin: 10px;
+    text-rendering: optimizeLegibility;
+  }
+  
+  .overlay,
+  .parallax-text {
+    font-size: 50px;
+    letter-spacing: .11em;
+    font-size: 2.25em;
+    text-rendering: optimizeLegibility;
+  }
+
+#educationheader {
+    padding-top: 150px;
+}
+
+  

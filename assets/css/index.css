@@ -95,17 +95,18 @@
 
   #missionstatement {
     padding-right: 50px;
-    text-align: center;
+    text-align: left;
   }
 
   #researchresults {
-    padding-right: 50px;
-    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: left;
   }
 
   #whoweare {
     padding-right: 50px;
-    text-align: center;
+    text-align: left;
   }
 
   

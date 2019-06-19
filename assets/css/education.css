@@ -58,7 +58,7 @@
   }
 
   .grey-text {
-    float:left;
+    float:center;
   }
   
   .parallax-container {
@@ -95,6 +95,10 @@
 
 #educationheader {
     padding-top: 150px;
+}
+
+.btn-floating {
+  
 }
 
   

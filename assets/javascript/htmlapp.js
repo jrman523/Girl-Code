@@ -3,45 +3,30 @@ var countStartNumber = 30;
 
 // Question set
 var questions = [{
-  question: "Who was the first president of the United States?",
-  answers: ["George Washington", "Mark Twain", "Abraham Lincoln", "Henry Ford"],
-  correctAnswer: "George Washington",
+  question: "What does HTML stand for?",
+  answers: ["Home Tool Markup Language", "Hyperlinks and Text Markup Language", "Hyper Text Markup Language", "Hi Tony My Lizard"],
+  correctAnswer: "Hyper Text Markup Language",
   image: "assets/images/georgewashington.gif"
 }, {
-  question: "How many presidents have been impeached?",
-  answers: ["Three", "None", "One", "Two"],
-  correctAnswer: "Two",
+  question: "Choose the correct HTML element for the largest heading.",
+  answers: ["<h1>", "<heading>", "<head>", "<h6>"],
+  correctAnswer: "<h1>",
   image: "https://media.giphy.com/media/fp9bqPNUoUd5m/giphy-downsized.gif"
 }, {
-  question: "Which one of the president's below is not on Mount Rushmore?",
-  answers: ["Abraham Lincoln", "George Bush", "Theodore Roosevelt", "Thomas Jefferson"],
-  correctAnswer: "George Bush",
+  question: "What is the correct HTML element for inserting a line break?",
+  answers: ["<break>", "<lb>", "<br>", "<break>>"],
+  correctAnswer: "<br>",
   image: "https://media.giphy.com/media/yXYXqod9oaCxq/giphy.gif"
 }, {
-  question: "Who Did Marilyn Monroe sing 'Happy Birthday Mr. President' to?",
-  answers: ["John F. Kennedy", "Dwight Eisenhower", "Ronald Raegan", "Jimmy Carter"],
-  correctAnswer: "John F. Kennedy",
+  question: "How can you make a numbered list?",
+  answers: ["<ol>", "<ul>", "<list>", "<dl>"],
+  correctAnswer: "<ul>",
   image: "assets/images/jfk.gif"
 }, {
-  question: "How many presidents has the United States had?",
-  answers: ["forty-four", "fourty-three", "fourty-five", "fifty-two"],
-  correctAnswer: "fourty-five",
+  question: "HTML comments start with <!--and end with-->",
+  answers: ["true", "false",],
+  correctAnswer: "true",
   image: "https://media.giphy.com/media/xUPGcjPLLxiKpXxeEg/source.gif"
-}, {
-  question: "Who was the only president to be elected four times?",
-  answers: ["Harry S. Truman", "Herbert Hoover", "Franklin D. Roosevelt", "Woodrow Wilson"],
-  correctAnswer: "Franklin D. Roosevelt",
-  image: "assets/images/fdr.gif"
-}, {
-  question: "Which president was blind in their left eye?",
-  answers: ["Calvin Coolidge", "Teddy Roosevelt", "James Buchanan", "Jimmy Carter"],
-  correctAnswer: "Teddy Roosevelt",
-  image: "assets/images/teddyroosevelt.gif"
-}, {
-  question: "Which president had pet alligators?",
-  answers: ["George Bush", "Richard Nixon", "Harry S. Truman", "Herbert Hoover"],
-  correctAnswer: "Herbert Hoover",
-  image: "https://media.giphy.com/media/Nh0DgQBi47Ppu/giphy.gif"
 }];
 
 // Variable to hold our setInterval

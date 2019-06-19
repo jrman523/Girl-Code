@@ -92,4 +92,20 @@
     font-size: 2.25em;
     text-rendering: optimizeLegibility;
   }
+
+  #missionstatement {
+    padding-right: 50px;
+    text-align: center;
+  }
+
+  #researchresults {
+    padding-right: 50px;
+    text-align: center;
+  }
+
+  #whoweare {
+    padding-right: 50px;
+    text-align: center;
+  }
+
   

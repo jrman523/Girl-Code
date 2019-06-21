@@ -1,23 +1,22 @@
-# Node.js & Passport Login
+# Project Title
 
-This is a user login and registration app using Node.js, Express, Passport, Mongoose, EJS and some other packages.
+GirlCode 
 
-### Version: 2.0.0
+GirlCode's mission is to stop the paradigm of cultural bias against women in STEM by providing a community where girls feel supported and are encouraged to pursue their interests in Software Engineering.
 
-### Usage
 
-```sh
-$ npm install
-```
+## Built With
 
-```sh
-$ npm start
-# Or run with Nodemon
-$ npm run dev
+* React
+* JavaScript
+* Materialize
+* Node.js
+* Mongo.db
+* Phaser3
 
-# Visit http://localhost:5000
-```
 
-### MongoDB
+## Acknowledgments
 
-Open "config/keys.js" and add your MongoDB URI, local or Atlas
+* Thank you to my Jad El Ramadi for supporting the Women in Tech and girls in STEM movements and for creating such amazing coding games 
+
+

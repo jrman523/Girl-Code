@@ -3,45 +3,25 @@ var countStartNumber = 30;
 
 // Question set
 var questions = [{
-  question: "Who was the first president of the United States?",
-  answers: ["George Washington", "Mark Twain", "Abraham Lincoln", "Henry Ford"],
-  correctAnswer: "George Washington",
-  image: "assets/images/georgewashington.gif"
+  question: "Inside which HTML element do we put the JavaScript?",
+  answers: ["<js>", "<scripting>", "<javascript>", "<script>"],
+  correctAnswer: "<script>",
 }, {
-  question: "How many presidents have been impeached?",
-  answers: ["Three", "None", "One", "Two"],
-  correctAnswer: "Two",
-  image: "https://media.giphy.com/media/fp9bqPNUoUd5m/giphy-downsized.gif"
+  question: "Where is the correct place to insert JavaScript",
+  answers: ["in the body section", "in the head section"],
+  correctAnswer: "in the body section",
 }, {
-  question: "Which one of the president's below is not on Mount Rushmore?",
-  answers: ["Abraham Lincoln", "George Bush", "Theodore Roosevelt", "Thomas Jefferson"],
-  correctAnswer: "George Bush",
-  image: "https://media.giphy.com/media/yXYXqod9oaCxq/giphy.gif"
+  question: "The external JavaScript file must contain the <script> tag",
+  answers: ["True", "False"],
+  correctAnswer: "True",
 }, {
-  question: "Who Did Marilyn Monroe sing 'Happy Birthday Mr. President' to?",
-  answers: ["John F. Kennedy", "Dwight Eisenhower", "Ronald Raegan", "Jimmy Carter"],
-  correctAnswer: "John F. Kennedy",
-  image: "assets/images/jfk.gif"
+  question: "How do you create a function in JavaScript?",
+  answers: ["function myFunction()", "function:myFunction()", "function = myFunction()"],
+  correctAnswer: "function = myFunction",
 }, {
-  question: "How many presidents has the United States had?",
-  answers: ["forty-four", "fourty-three", "fourty-five", "fifty-two"],
-  correctAnswer: "fourty-five",
-  image: "https://media.giphy.com/media/xUPGcjPLLxiKpXxeEg/source.gif"
-}, {
-  question: "Who was the only president to be elected four times?",
-  answers: ["Harry S. Truman", "Herbert Hoover", "Franklin D. Roosevelt", "Woodrow Wilson"],
-  correctAnswer: "Franklin D. Roosevelt",
-  image: "assets/images/fdr.gif"
-}, {
-  question: "Which president was blind in their left eye?",
-  answers: ["Calvin Coolidge", "Teddy Roosevelt", "James Buchanan", "Jimmy Carter"],
-  correctAnswer: "Teddy Roosevelt",
-  image: "assets/images/teddyroosevelt.gif"
-}, {
-  question: "Which president had pet alligators?",
-  answers: ["George Bush", "Richard Nixon", "Harry S. Truman", "Herbert Hoover"],
-  correctAnswer: "Herbert Hoover",
-  image: "https://media.giphy.com/media/Nh0DgQBi47Ppu/giphy.gif"
+  question: "JavaScript is the same as Java",
+  answers: ["True", "False"],
+  correctAnswer: "False",
 }];
 
 // Variable to hold our setInterval

@@ -3,45 +3,25 @@ var countStartNumber = 30;
 
 // Question set
 var questions = [{
-  question: "Who was the first president of the United States?",
-  answers: ["George Washington", "Mark Twain", "Abraham Lincoln", "Henry Ford"],
-  correctAnswer: "George Washington",
-  image: "assets/images/georgewashington.gif"
+  question: "What does CSS stand for?",
+  answers: ["Cascading Style Sheets", "Calendar Style Sheets", "Cool Style Sheets", "just CSS"],
+  correctAnswer: "Cascading Style Sheets",
 }, {
-  question: "How many presidents have been impeached?",
-  answers: ["Three", "None", "One", "Two"],
-  correctAnswer: "Two",
-  image: "https://media.giphy.com/media/fp9bqPNUoUd5m/giphy-downsized.gif"
+  question: "Which HTML tag is used to define an internal style sheet",
+  answers: ["<css>", "<script>", "<style>", "<stylesheet>"],
+  correctAnswer: "<script>",
 }, {
-  question: "Which one of the president's below is not on Mount Rushmore?",
-  answers: ["Abraham Lincoln", "George Bush", "Theodore Roosevelt", "Thomas Jefferson"],
-  correctAnswer: "George Bush",
-  image: "https://media.giphy.com/media/yXYXqod9oaCxq/giphy.gif"
+  question: "Which property is used to change the background color",
+  answers: ["bgcolor", "background-color", "color", "color-of-background"],
+  correctAnswer: "bgcolor",
 }, {
-  question: "Who Did Marilyn Monroe sing 'Happy Birthday Mr. President' to?",
-  answers: ["John F. Kennedy", "Dwight Eisenhower", "Ronald Raegan", "Jimmy Carter"],
-  correctAnswer: "John F. Kennedy",
-  image: "assets/images/jfk.gif"
+  question: "Which CSS property is used to change the text color of an element",
+  answers: ["fgcolor", "text-color", "color", "textcolor"],
+  correctAnswer: "color",
 }, {
-  question: "How many presidents has the United States had?",
-  answers: ["forty-four", "fourty-three", "fourty-five", "fifty-two"],
-  correctAnswer: "fourty-five",
-  image: "https://media.giphy.com/media/xUPGcjPLLxiKpXxeEg/source.gif"
-}, {
-  question: "Who was the only president to be elected four times?",
-  answers: ["Harry S. Truman", "Herbert Hoover", "Franklin D. Roosevelt", "Woodrow Wilson"],
-  correctAnswer: "Franklin D. Roosevelt",
-  image: "assets/images/fdr.gif"
-}, {
-  question: "Which president was blind in their left eye?",
-  answers: ["Calvin Coolidge", "Teddy Roosevelt", "James Buchanan", "Jimmy Carter"],
-  correctAnswer: "Teddy Roosevelt",
-  image: "assets/images/teddyroosevelt.gif"
-}, {
-  question: "Which president had pet alligators?",
-  answers: ["George Bush", "Richard Nixon", "Harry S. Truman", "Herbert Hoover"],
-  correctAnswer: "Herbert Hoover",
-  image: "https://media.giphy.com/media/Nh0DgQBi47Ppu/giphy.gif"
+  question: "Which propertt is used to change the font of an element",
+  answers: ["font-weight", "font-family", "font-style", "family-font"],
+  correctAnswer: "font-family",
 }];
 
 // Variable to hold our setInterval

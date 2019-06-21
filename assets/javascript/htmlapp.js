@@ -6,27 +6,22 @@ var questions = [{
   question: "What does HTML stand for?",
   answers: ["Home Tool Markup Language", "Hyperlinks and Text Markup Language", "Hyper Text Markup Language", "Hi Tony My Lizard"],
   correctAnswer: "Hyper Text Markup Language",
-  image: "assets/images/georgewashington.gif"
 }, {
   question: "Choose the correct HTML element for the largest heading.",
   answers: ["<h1>", "<heading>", "<head>", "<h6>"],
   correctAnswer: "<h1>",
-  image: "https://media.giphy.com/media/fp9bqPNUoUd5m/giphy-downsized.gif"
 }, {
   question: "What is the correct HTML element for inserting a line break?",
   answers: ["<break>", "<lb>", "<br>", "<break>>"],
   correctAnswer: "<br>",
-  image: "https://media.giphy.com/media/yXYXqod9oaCxq/giphy.gif"
 }, {
   question: "How can you make a numbered list?",
   answers: ["<ol>", "<ul>", "<list>", "<dl>"],
   correctAnswer: "<ul>",
-  image: "assets/images/jfk.gif"
 }, {
   question: "HTML comments start with <!--and end with-->",
   answers: ["true", "false",],
   correctAnswer: "true",
-  image: "https://media.giphy.com/media/xUPGcjPLLxiKpXxeEg/source.gif"
 }];
 
 // Variable to hold our setInterval

@@ -7,21 +7,21 @@ var questions = [{
   answers: ["Home Tool Markup Language", "Hyperlinks and Text Markup Language", "Hyper Text Markup Language", "Hi Tony My Lizard"],
   correctAnswer: "Hyper Text Markup Language",
 }, {
-  question: "Choose the correct HTML element for the largest heading.",
-  answers: ["<h1>", "<heading>", "<head>", "<h6>"],
-  correctAnswer: "<h1>",
+  question: "Choose the correct HTML element for the largest heading",
+  answers: ["h1", "heading", "head", "h6"],
+  correctAnswer: "h1",
 }, {
   question: "What is the correct HTML element for inserting a line break?",
-  answers: ["<break>", "<lb>", "<br>", "<break>>"],
-  correctAnswer: "<br>",
+  answers: ["break", "lb", "br", "break"],
+  correctAnswer: "br",
 }, {
   question: "How can you make a numbered list?",
-  answers: ["<ol>", "<ul>", "<list>", "<dl>"],
-  correctAnswer: "<ul>",
+  answers: ["ol", "ul", "list", "dl"],
+  correctAnswer: "ul",
 }, {
-  question: "HTML comments start with <!--and end with-->",
-  answers: ["true", "false",],
-  correctAnswer: "true",
+  question: "Which HTML element adds an image?",
+  answers: ["img", "href","src","div"],
+  correctAnswer: "img",
 }];
 
 // Variable to hold our setInterval

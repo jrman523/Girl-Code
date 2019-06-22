@@ -1,0 +1,86 @@
+/* Navigation Bar*/
+.nav-wrapper{
+    background-color: #373737 !important;
+    font-family: 'Raleway', sans-serif;
+   }
+
+.wrapper {
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+/* Unvisited link */
+a:link {
+    color: #f4f4f4";
+  }
+  
+/* visited link */
+  a:visited {
+    color: #f4f4f4";
+  }
+  
+/* mouse over link */
+  a:hover {
+    color: #f4f4f4";
+  }
+  
+/* selected link */
+  a:active {
+    color: #f4f4f4";
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+
+.page-footer {
+  background-color: #373737 !important;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.parallax {
+    background-blend-mode: overlay;
+  }
+
+  .grey-text {
+    float:left;
+  }
+  
+  .parallax-container {
+    color: #373737;
+  }
+  
+  .inputName {
+    color: #373737;
+  }
+  
+  .overlay {
+    width: 100%;
+  }
+  
+  .h100 {
+    height: 100%;
+  }
+
+.welcome {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.buttonone {
+  
+}

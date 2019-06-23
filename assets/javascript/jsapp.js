@@ -4,14 +4,14 @@ var countStartNumber = 30;
 // Question set
 var questions = [{
   question: "Inside which HTML element do we put the JavaScript?",
-  answers: ["<js>", "<scripting>", "<javascript>", "<script>"],
-  correctAnswer: "<script>",
+  answers: ["js", "scripting", "javascript", "script"],
+  correctAnswer: "script",
 }, {
   question: "Where is the correct place to insert JavaScript",
   answers: ["in the body section", "in the head section"],
   correctAnswer: "in the body section",
 }, {
-  question: "The external JavaScript file must contain the <script> tag",
+  question: "The external JavaScript file must contain the script tag",
   answers: ["True", "False"],
   correctAnswer: "True",
 }, {

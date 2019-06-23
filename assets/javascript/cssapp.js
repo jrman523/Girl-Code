@@ -8,15 +8,15 @@ var questions = [{
   correctAnswer: "Cascading Style Sheets",
 }, {
   question: "Which HTML tag is used to define an internal style sheet",
-  answers: ["<css>", "<script>", "<style>", "<stylesheet>"],
-  correctAnswer: "<script>",
+  answers: ["css", "script", "style", "stylesheet"],
+  correctAnswer: "script",
 }, {
   question: "Which property is used to change the background color",
-  answers: ["bgcolor", "background-color", "color", "color-of-background"],
+  answers: ["bgcolor", "background color", "color", "color of background"],
   correctAnswer: "bgcolor",
 }, {
   question: "Which CSS property is used to change the text color of an element",
-  answers: ["fgcolor", "text-color", "color", "textcolor"],
+  answers: ["fgcolor", "textcolor", "color", "textcolor"],
   correctAnswer: "color",
 }, {
   question: "Which propertt is used to change the font of an element",

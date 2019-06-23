@@ -75,3 +75,8 @@ a:link {
   .h100 {
     height: 100%;
   }
+
+  .logoimage {
+    width: 100%;
+    height: 125%;
+  }

@@ -1,3 +1,5 @@
+![logo](https://user-images.githubusercontent.com/46409174/59978731-a7e20880-95ad-11e9-8340-28a638a6ec84.png)
+
 # Project Title
 
 GirlCode 

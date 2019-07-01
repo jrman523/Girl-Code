@@ -1,0 +1,50 @@
+.parallax {
+  background-blend-mode: overlay;
+}
+
+.grey-text {
+  float: center;
+}
+
+.parallax-container {
+  color: #373737;
+}
+
+.inputName {
+  color: #373737;
+}
+
+.overlay {
+  width: 100%;
+}
+
+.h100 {
+  height: 100%;
+}
+
+.mariaimg {
+  border-radius: 50%;
+  float: left;
+  margin-left: 20px;
+}
+
+.jadimg {
+  border-radius: 50%;
+  float: left;
+  margin-left: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.mariablurb {
+  padding-left: 300px;
+  padding-right: 200px;
+  position: absolute;
+  float: right;
+}
+
+.heading6 {
+  padding-left: 300px !important;
+}

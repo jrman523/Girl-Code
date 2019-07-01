@@ -1,0 +1,51 @@
+/* Styling for Index, Project and Contact Pages*/
+
+/* About Page*/
+
+.parallax {
+  background-blend-mode: overlay;
+}
+
+.grey-text {
+  float: center;
+}
+
+.parallax-container {
+  color: #373737;
+}
+
+.inputName {
+  color: #373737;
+}
+
+.overlay {
+  width: 100%;
+}
+
+.h100 {
+  height: 100%;
+}
+
+.header {
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+  margin: 10px;
+  text-rendering: optimizeLegibility;
+}
+
+.overlay, .parallax-text {
+  font-size: 50px;
+  letter-spacing: .11em;
+  font-size: 2.25em;
+  text-rendering: optimizeLegibility;
+}
+
+#educationheader {
+  padding-top: 150px;
+}
+
+.educationimage {
+  width: 100%;
+  height: 100%;
+}

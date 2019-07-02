@@ -25,7 +25,7 @@ const Education = () => {
         <div>
             <title>Education</title>
             <div className="parallax-container">
-                <img className="educationimage" src={"assets/images/education.png"} />
+                <img className="educationimage" src={"assets/images/education.png"} alt="Education" />
             </div>
 
             <div className="parallax-container" style={customRed} align="center">

@@ -1,13 +1,17 @@
 const express = require("express");
-const path = require("path");
-const mongoose = require('mongoose');
-const passport = require('passport');
-const flash = require('connect-flash');
 const session = require('express-session');
+const path = require("path");
+const morgan = require('morgan');
+const MongoStore = require('connect-mongo')(session)
+const passport = require('./client/passport');
+const user = require('./client/routes/user');
+const dbConnection = require('./client/database');
 
 const PORT = process.env.PORT || 3001;
 const app = express();
 
+// Use morgan logger for logging requests
+app.use(morgan("dev"));
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -16,51 +20,13 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 
-// Passport Config
-require('./client/config/passport')(passport);
+// Passport
+app.use(passport.initialize())
+app.use(passport.session()) // calls the deserializeUser
 
-// DB Config
-const db = require('./client/config/keys').mongoURI;
-
-// Connect to MongoDB
-mongoose
-  .connect(
-    db,
-    { useNewUrlParser: true }
-  )
-  .then(() => console.log('MongoDB Connected'))
-  .catch(err => console.log(err));
-
-// Express session
-app.use(
-  session({
-    secret: 'secret',
-    resave: true,
-    saveUninitialized: true
-  })
-);
-
-// Passport middleware
-app.use(passport.initialize());
-app.use(passport.session());
-
-// Connect flash
-app.use(flash());
-
-// Global variables
-app.use(function (req, res, next) {
-  res.locals.success_msg = req.flash('success_msg');
-  res.locals.error_msg = req.flash('error_msg');
-  res.locals.error = req.flash('error');
-  next();
-});
 
 // Routes
-app.use('/', require('./client/routes/index.js'));
-app.use('/users', require('./client/routes/user.js'));
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
-});
+app.use('/user', user);
 
 app.listen(PORT, () => {
   console.log(`🌎 ==> API server now on port ${PORT}!`);

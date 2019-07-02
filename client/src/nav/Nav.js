@@ -1,8 +1,14 @@
 import React from 'react';
 import './Nav.css';
 import { Link } from "react-router-dom";
+import axios from 'axios';
 
-const Nav = () => {
+class Nav extends React.Component {
+    constructor(props) {
+        super(props)
+    }
+    
+   render(){
     return (
         <div>
             <nav>
@@ -21,5 +27,7 @@ const Nav = () => {
             </nav>
         </div>
     );
+   }
 };
+
 export default Nav;

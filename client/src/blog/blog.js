@@ -17,7 +17,7 @@ const Blog = () => {
         <div>
             <title>Blog</title>
             <div class="parallax-container1">
-                <img class="logoimage" src={"assets/images/blog.png"} />
+                <img class="logoimage" src={"assets/images/blog.png"} alt="Blog"/>
             </div>
 
             <div class="parallax-container" style={whitesmoke}>

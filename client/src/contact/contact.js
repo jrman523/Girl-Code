@@ -22,7 +22,7 @@ const Contact = () => {
         <div>
             <title>Contact</title>
             <div className="parallax-container1">
-                <img className="logoimage" src={"assets/images/contact.png"} />
+                <img className="logoimage" src={"assets/images/contact.png"} alt="Contact"/>
             </div>
             <div className="parallax-container" style={whitesmoke}>
                 <div className="wrapper h100">
@@ -30,7 +30,7 @@ const Contact = () => {
                     <br />
                     <br />
                     <div>
-                        <img src={"assets/images/maria.png"} className="mariaimg" />
+                        <img src={"assets/images/maria.png"} className="mariaimg" alt="Maria"/>
                         <br />
                         <h6 className="heading6" align="left">M A R I A - C O F O U N D E R</h6>
                         <p align="left" className="mariablurb">
@@ -48,7 +48,7 @@ const Contact = () => {
                     <div>
                         <br />
                         <br />
-                        <img src={"assets/images/jad.png"} className="jadimg" />
+                        <img src={"assets/images/jad.png"} className="jadimg" alt="Jad"/>
                         <br />
 
                         <h6 className="heading6" align="left">J A D - C O F O U N D E R</h6>

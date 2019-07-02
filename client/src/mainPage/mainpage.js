@@ -4,21 +4,9 @@ import './index.css';
 const Raleway = {
     fontFamily: "'Raleway', sans-serif"
 }
-const Barlow = {
-    fontFamily: "'Barlow', sans-serif"
-}
 const header = {
     fontFamily: "'Barlow', sans-serif",
     fontSize: '100px'
-}
-const logoBackground = {
-    backgroundColor: "#cec3ab"
-}
-const logo = {
-    fontSize: '75px',
-    fontFamily: "'Raleway', sans-serif",
-    color: 'black',
-    fontWeight: 'bolder'
 }
 const whitesmoke = {
     backgroundColor: 'whitesmoke'
@@ -33,7 +21,7 @@ const MainPage = () => {
         <div>
             <title>About</title>
             <div className="parallax-container1">
-                <img className="logoimage" src={"assets/images/logo.png"} />
+                <img className="logoimage" src={"assets/images/logo.png"} alt="Girl Code"/>
             </div>
 
             <div className="parallax-container" style={whitesmoke}>

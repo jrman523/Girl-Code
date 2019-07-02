@@ -1,7 +1,7 @@
 {
-  "name": "mern",
+  "name": "Girl Code",
   "version": "1.0.0",
-  "description": "Mern Demo",
+  "description": "",
   "main": "server.js",
   "homepage": "https://girl-code.herokuapp.com/",
   "scripts": {

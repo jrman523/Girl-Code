@@ -3,7 +3,7 @@ import './Nav.css';
 import { Link } from "react-router-dom";
 import axios from 'axios';
 
-class Nav extends Component {
+class Nav extends React.Component {
     constructor(props) {
         super(props)
     }
@@ -29,4 +29,5 @@ class Nav extends Component {
     );
    }
 };
+
 export default Nav;

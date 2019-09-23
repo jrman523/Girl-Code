@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Nav from './nav/Nav';
 import MainPage from './mainPage/mainpage';
+//import './mainPage/index.css';
 import Footer from './footer/footer';
 import Blog from './blog/blog';
 import FAQ from './faq/faq';

@@ -1,6 +1,5 @@
 import React from 'react';
 import './index.css';
-
 const Raleway = {
     fontFamily: "'Raleway', sans-serif"
 }
